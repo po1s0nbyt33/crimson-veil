@@ -1,0 +1,28 @@
+# ---- Artefatos de build (VitaSDK / CMake) ----
+/build/
+*.o
+*.a
+*.elf
+*.velf
+*.self
+eboot.bin
+*.sfo
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# ---- Coredumps / depuracao ----
+/debug/
+*.psp2dmp
+core.elf
+
+# ---- Editores / Sistema operacional ----
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Observacao: o pacote distribuivel "CrimsonVeil.vpk" fica versionado na RAIZ
+# (nao e ignorado) para que qualquer pessoa possa baixar e instalar direto.
